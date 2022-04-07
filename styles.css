@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Vazirmatn:wght@600&display=swap');
+ 
+body{
+    background-image: url('./images/space.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 45%;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,10%);
+    align-items: flex-end;
+    margin-top: 6%;
+    justify-content: flex-end;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-space{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: white;
+    color: rgb(35, 35, 36);
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -0.1%;
+    font-family:'Vazirmatn';   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.header-space img{
+    width: 40%;
+    margin: 5%;
+}
+
+.header-space--tittle{
+    display: grid;
+    grid-template-columns: repeat(2,30%); 
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.header-space--tittle h1{
+    margin-left: -55%;
+    margin-top: 14%;
+    font-family: Open Sans;
+}
+
+.header-space--menu{
+    align-items: flex-end;
+    margin-right: 2%;
+    font-family: Open Sans;
+}
+
+.tittle{
+    color: white;
+    font-family: 'Vazirmatn';
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-descripcion{
+    align-content: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.button-now{
+    border: 0;
+    border-radius: 2px;
+    justify-content: center;
+    color: white;
+   background-color: transparent;
+    height: 30px;
+    width: 80px;
+    margin-left: 47%;
+    margin-top: -10%;
+}
+
+.button-now:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.info-section{
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+    margin-top: 10%;
+}
+
+.info-section img{
+    width: 95%;
+    border-radius: 20px;
+}
+
+.info-section article{
+    margin-top: 14%;
+    font-family: Roboto;
+    text-align: justify;
+}
+
+.seccion__quienes{
+    padding-left: 3%;
+    margin-top: 30%;
+    font-family: Open Sans;
+}
+
+.seccion__quienes--images{
+    width: 30%;
+    height: 250px;
+    margin-left: 35%;
+}
+
+.seccion__frase{
+    margin-top: -2%;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.seccion__autor{
+    margin-left: 70%;
+    margin-bottom: 50px;
+}
