@@ -24,11 +24,17 @@ function drawPhotos(data) {
     const text = document.createElement('p')
     const imgDescription = document.createTextNode(data.explanation)
 
+    const date = document.createElement("p")
+    const dateDesc = document.createTextNode(data.date)
+
     const titulo = document.createElement("h2")
     const textTittle = document.createTextNode(data.title)
 
     titulo.appendChild(textTittle)
     photoContainer.appendChild(titulo)
+
+    date.appendChild(dateDesc)
+    photoContainer.appendChild(date)
 
     text.appendChild(imgDescription)
     photoContainer.appendChild(text)
