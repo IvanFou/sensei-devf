@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Vazirmatn:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
 
+
 body{
     background-image: url('./images/space.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 48%;
-}
-
-ul{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3,10%);
-    align-items: flex-end;
-    margin-top: 6%;
-    justify-content: flex-end;
 }
 
 a{
@@ -133,4 +125,140 @@ a{
 .seccion__autor{
     margin-left: 70%;
     margin-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    padding-left: 2%;
+    background-color: black;
+    margin: -0.6%;
+    margin-top: 5%;
+}
+
+.imagen-y-equipo{
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2,30%);
+        font-family: Open Sans;
+}
+
+.imagen-y-equipo img{
+        width: 25%;
+}
+
+.imagen-y-equipo p{
+        margin-left: -70%;
+        margin-top: 9%;
+}
+
+@media (min-width:100px) and (max-width: 600px){
+   
+    .header-space--tittle{
+        display: grid;
+        grid-template-columns: repeat(2,90%); 
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+
+    body{
+        background-size: 100% 30%;
+    }
+
+    .seccion__quienes{
+        margin-top: 60%;
+    }
+
+    .button-now{
+        margin-left: 40%;
+    }
+
+    .tittle{
+        margin-top: 50%;
+        font-size: 30px;
+    }
+    
+
+    .info-section{
+        display: block;
+        margin-top: 10%;
+    }
+    
+    .footer-container {
+        display: flex;
+        padding-left: 2%;
+        background-color: black;
+        margin: -0.4%;
+        margin-top: 5%;
+    }
+
+}
+
+
+@media (min-width:1000px) and (max-width: 1688px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 45%;
+    }
+
+    .seccion__quienes{
+        padding-left: 3%;
+        margin-top: 50%;
+        font-family: Open Sans;
+    }
+
+    .info-section article{
+        margin-top: 10%;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+    }
+
+    .footer-container {
+        display: flex;
+        padding-left: 2%;
+        background-color: black;
+        margin: -0.6%;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1000px){
+    .header-space--tittle{
+        display: grid;
+        grid-template-columns: repeat(2,90%); 
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+
+    body{
+        background-size: 100% 35%;
+    }
+
+    .seccion__quienes{
+        margin-top: 40%;
+    }
+
+    .button-now{
+        margin-left: 40%;
+    }
+
+    .tittle{
+        margin-top: 50%;
+        font-size: 30px;
+    }
+    
+
+    .info-section{
+        display: block;
+        margin-top: 10%;
+    }
+
+    .footer-container {
+        display: flex;
+        padding-left: 2%;
+        background-color: black;
+        margin: -1%;
+        margin-top: 5%;
+    }
+
 }
