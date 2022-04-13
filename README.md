@@ -4,4 +4,4 @@ Un sitio que hace uso de la API de Nasa Apod utilizando herramientas basicas de 
 ## URL 
 https://sensei-devf.netlify.app/
 
-![Header](https://i.postimg.cc/Jzhv3ZL3/Nasa-Space-Api.png)
+![Header](https://i.postimg.cc/cHwjySrZ/Captura-de-pantalla-1186.png)
