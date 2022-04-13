@@ -3,10 +3,9 @@
 
 
 body{
-    background-image: url('./images/space.png');
+    background-image: url('https://images.pexels.com/photos/7672881/pexels-photo-7672881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% 48%;
 }
 
 a{
@@ -45,7 +44,7 @@ a{
 .header-space--tittle h1{
     margin-left: -55%;
     margin-top: 14%;
-    font-family: Open Sans;
+    font-family: Roboto;
 }
 
 .header-space--menu{
@@ -161,7 +160,7 @@ a{
     }
 
     body{
-        background-size: 100% 30%;
+        background-size: 100% 40%;
     }
 
     .seccion__quienes{
@@ -198,7 +197,7 @@ a{
     body{
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 100% 45%;
+        background-size: 100% 40%;
     }
 
     .seccion__quienes{
@@ -231,7 +230,7 @@ a{
     }
 
     body{
-        background-size: 100% 35%;
+        background-size: 100% 40%;
     }
 
     .seccion__quienes{
